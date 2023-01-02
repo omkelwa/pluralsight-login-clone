@@ -109,3 +109,18 @@ hr{
     margin-top: -110px;
     margin-left:250px;
 }
+
+/* responsive section starts  */
+
+@media (max-width:768px){
+   .container .image-section{
+        display:none;
+    }
+
+    .container .login-section{
+        width:100%;
+        height:140vh;
+        background-color: black;
+    }
+
+}
